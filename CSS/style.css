@@ -1,0 +1,52 @@
+h1{
+    font-weight: bold;
+}
+#Nome{
+    background-color: rgba(0, 197, 223, 0.829);
+    border: 0;
+    padding-left: 30px;
+    font-size: large;
+    width: 40%;
+    padding: 15px;
+    border-radius: 30px;
+}
+#logo{
+    width: 50%;
+    margin: auto;
+    font-size: x-large;
+}
+#usuario{
+    color: rgb(121, 121, 121);
+    font-size: 25px;
+}
+#carrinho{
+    color: rgb(121, 121, 121);
+    font-size: 25px;
+}
+#conversa{
+    color: rgb(121, 121, 121);
+    font-size: 25px;
+}
+input{
+    padding-left: 8px;
+    margin-left: 10px;
+    color: rgb(121, 121, 121);
+}
+#lupa{
+    color: rgb(121, 121, 121);
+    margin-left: 20px;
+    margin-top: 13px;
+    position: absolute;
+}
+label{
+    border: 1px;
+    border-radius: 5px;
+    color: rgb(121, 121, 121);
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+#resto{
+    text-align: center;
+    font-size: x-large;
+}
