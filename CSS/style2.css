@@ -1,38 +1,40 @@
 body{
-    background-image: url("IMAGENS/fundocachorro1.jpg");
+    background-image: url(../IMAGENS/fundooo.jpg);
 }
 img{
     width: 130px;
     margin-left: 898px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 #principal{
-    background-color: whitesmoke;
-    box-shadow: 0px 5px 5px 0px rgb(141, 141, 141);
+    background-image: linear-gradient(to right,rgb(4, 121, 0),rgb(12, 141, 0));
+    box-shadow: 0px 5px 5px 0px rgb(0, 71, 12);
+    opacity: 80%;
     border: 0;
     border-radius: 10px;
 }
 #seta{
     position: absolute;
-    margin-left: -1000px;
+    margin-left: -1002px;
     margin-top: 10px;
     font-size: x-large;
-    color: dodgerblue;
+    color: rgb(255, 255, 255);
 }
 #voltar{
+    border-radius: 10px;
     position: absolute;
     margin-left: -972px;
     margin-top: 10px;
     font-size: x-large;
-    color: dodgerblue;
+    color: rgb(255, 255, 255);
 }
-
-
 #cadastro{
     height: 600px;
-    background-color: rgb(255, 145, 118);
-    box-shadow: 0px 5px 5px 5px rgb(141, 141, 141);
+    background: transparent;
+    outline: none;
+    box-shadow: 0px 5px 5px 5px rgb(5, 150, 0);
     border: 0;
     width: 30%;
     margin: auto;
@@ -40,7 +42,8 @@ img{
     margin-top: 50px;
 }
 h1{
-    color: dodgerblue;
+    margin-bottom: 20px;
+    color: rgb(8, 70, 0);
     margin-left: 48px;
     text-shadow: 0 0 0 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -48,19 +51,20 @@ h1{
 #email{
     width: 80%;
     padding: 10px;
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     margin-left: 48px;
     border-radius: 10px;
-    border: 1px solid grey;
+    border: 3px solid rgb(10, 117, 0);;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
 }
 #senha{
-    border: 1px solid grey;
+    border: 3px solid rgb(0, 109, 18);
     width: 80%;
     margin-top: 10px;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-left: 48px;
     border-radius: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -80,13 +84,14 @@ button{
     border-radius: 20px;
     margin-bottom: 30px;
     margin-top: 10px;
-    background-color: rgb(122, 204, 0);
-    border: 0;
+    background-image: linear-gradient(to right,rgb(0, 202, 17),rgb(0, 94, 16));
+    border: 3px solid white;
     color: white;
     font-size: large;
     font-weight: bold;
 }
 #checkbox{
+    color: rgb(255, 255, 255);
     margin-left: 180px;
     margin-bottom: 20px;
 }
